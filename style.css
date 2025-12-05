@@ -1,0 +1,112 @@
+/* ======== GLOBAL STYLE ======== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f5e9d3; /* krem mewah */
+    color: #3e2f1f;
+    text-align: center;
+}
+
+/* ======== KATALOG SECTION ======== */
+#katalog {
+    margin-top: 30px;
+}
+
+/* CARD PRODUK */
+.produk {
+    background: #fff;
+    padding: 15px;
+    margin: 12px auto;
+    width: 85%;
+    border-radius: 14px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+    transition: 0.2s;
+}
+
+.produk:hover {
+    transform: scale(1.02);
+}
+
+/* GAMBAR PRODUK */
+.produk img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* NAMA PRODUK */
+.produk h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #3b2b1a;
+}
+
+/* HARGA PRODUK */
+.produk p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #5a4a3a;
+}
+
+/* ======== POLAROID CARD (PALING ATAS) ======== */
+.polaroid-card {
+    border: 2px solid #e8d4b8;
+    background: #fffdf8;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+/* GALERI POLAROID */
+.polaroid-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.polaroid-image {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    width: 120px;
+}
+
+.polaroid-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* DESKRIPSI POLAROID */
+.polaroid-desc {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #4b3a2a;
+}
+
+/* HARGA POLAROID */
+.harga-polaroid {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #3b2b1a;
+}
+
+/* ======== TOMBOL PILIH CANVA ======== */
+.btn-pilih {
+    display: inline-block;
+    background: #ff7b00;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.btn-pilih:hover {
+    background: #d66700;
+}
